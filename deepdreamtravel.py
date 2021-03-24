@@ -3,11 +3,11 @@ from deepdreamtravel import DeepDreamTravel
 if __name__ == '__main__':
     import argparse, sys
 
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(BY AERTIST)
 
     # Required arguments
-    parser.add_argument('input_image', help='Input Image')
-    parser.add_argument('output_video', help='Output location and name')
+    parser.add_argument('--input_image', help='Input Image')
+    parser.add_argument('--output_video', help='Output location and name')
     # Optional arguments
     parser.add_argument('--node_switch', help='How often should layers switch', type=int)
     parser.add_argument('--resize_coeff', help='Zoom amount percentage', type=float)
