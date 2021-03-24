@@ -14,7 +14,7 @@ from pathlib import Path
 class DeepDreamTravel:
     objectives = []
 
-    def __init__(self, prototxt, caffemodel, model_path="./"):
+    def __init__(self, prototxt, caffemodel, model_path="./models/"):
         caffe.set_device(0)
         caffe.set_mode_gpu()
 
