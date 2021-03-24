@@ -3,7 +3,7 @@ from deepdreamtravel import DeepDreamTravel
 if __name__ == '__main__':
     import argparse, sys
 
-    parser = argparse.ArgumentParser(BY AERTIST)
+    parser = argparse.ArgumentParser()
 
     # Required arguments
     parser.add_argument('--input_image', help='Input Image')
